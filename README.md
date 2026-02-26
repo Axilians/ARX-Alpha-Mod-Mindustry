@@ -1,13 +1,18 @@
 <!-- Логотип по центру -->
 <p align="center">
-  <img src="images/logo.png" width="820" alt="">
+  <a href="https://github.com/Anuken/Mindustry/tree/master"><img src="images/logo.png" width="820" alt="">
 </p>
-<!-- Горизонтальная линия -->
-<hr>
 
 # Info
-- На данный момент это `тестовый мод` не предназначенный для скачивания.
-- At the moment, this is the `test mod` is not designed for download.
+- **На данный момент это `Тестовый мод` не предназначенный для скачивания.**
+- **At the moment, this is the `Test mod` is not designed for download.**
+
+<p align="right">
+  <a href="https://anuke.itch.io/mindustry"><img src="images/icon.png" height="50"></a>
+  <a href="https://anuke.itch.io/mindustry"><img src="https://static.itch.io/images/badge.svg" height="50"></a>
+</p>
+<!-- Горизонтальная линия - ->
+<hr>
 
 <!-- Несколько картинок в ряд - ->
 <p align="center">
@@ -52,15 +57,15 @@ console.log("Пример кода через HTML")
   <p align="center">"Пример цитаты, центрированной"</p>
 </blockquote>
 
-<!-- Таблица -->    
+<!-- Таблица - ->    
 <table align="center" >
-  <!-- Первая строка -->    
+  <!-- Первая строка - ->    
   <tr>
-    <!-- Левая колонка -->
+    <!-- Левая колонка - ->
     <td>
       <img src="images/icon.png" width="180">
     </td>
-    <!-- Правая колонка -->
+    <!-- Правая колонка - ->
     <td valign="middle">
       <blockquote>
         <b>Самое тупое что я когда либо слышал - это мнение отличающееся от моего, особенно если оно было сказано человеком.</b>
@@ -74,6 +79,4 @@ console.log("Пример кода через HTML")
 </table>
       </table>
 
-<p align="left">
-  <a href="https://anuke.itch.io/mindustry"><img src="https://static.itch.io/images/badge.svg" width="155"></a>
-</p>
+
