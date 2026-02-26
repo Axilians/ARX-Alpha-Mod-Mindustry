@@ -2,15 +2,21 @@
 <p align="center">
   <a href="https://github.com/Anuken/Mindustry/tree/master"><img src="images/logo.png" width="820" alt="">
 </p>
+    
+<img align="right" hspace="0" alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Axilians/ARX-Alpha-Mod-Mindustry?style=for-the-badge&color=%23ebac54">
 
 # Info
 - **На данный момент это `Тестовый мод` не предназначенный для скачивания.**
 - **At the moment, this is the `Test mod` is not designed for download.**
 
 <p align="right">
-  <a href="https://anuke.itch.io/mindustry"><img src="images/icon.png" height="50"></a>
-  <a href="https://anuke.itch.io/mindustry"><img src="https://static.itch.io/images/badge.svg" height="50"></a>
+  <a href="https://anuke.itch.io/mindustry">
+    <img src="https://static.itch.io/images/badge.svg" height="50"></a>
+    
+  <a href="https://anuke.itch.io/mindustry">
+    <img src="images/icon.png" height="50"></a>
 </p>
+
 <!-- Горизонтальная линия - ->
 <hr>
 
