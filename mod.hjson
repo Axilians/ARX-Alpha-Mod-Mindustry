@@ -1,0 +1,11 @@
+name: arx-axilians-alpha
+main: axilians.alpha.MainKotlin
+
+author: Axilians
+displayName: [red[]]\u26A0[[]] Arx Test Mod
+subtitle: [red[]]\u26A0[[]] Do not install this mod
+description: The test mod \n
+
+
+version: 1.0
+minGameVersion: 155.3

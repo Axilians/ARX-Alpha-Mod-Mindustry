@@ -1,0 +1,11 @@
+name: Axinium
+description: dasdasd
+color: 3a2613
+
+cost: 1.3
+hardness: 1.1
+flammability: 0.8
+explosiveness: 0
+lowPriority: true
+
+research: core-aggregate
