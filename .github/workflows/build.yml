@@ -43,8 +43,8 @@ jobs:
     - name: Build universal jar
       run: |
         mkdir -p build/libs/temp
-        # Распаковываем Desktop jar
-        unzip build/libs/ARX-Alpha-Mod.jar -d build/libs/temp
+        # Распаковываем * jar , вместо * должно быть имя из rootProject.name = "ARX Alpha Mod" но пробелы не работают так что пока *
+        unzip build/libs/*.jar -d build/libs/temp
         # Копируем classes.dex
         cp build/dex/classes.dex build/libs/temp/
         # Копируем assets и mod.hjson
