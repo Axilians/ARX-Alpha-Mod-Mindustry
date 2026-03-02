@@ -20,11 +20,8 @@ jobs:
         java-version: 17
 
     # 3️⃣ Устанавливаем Android SDK ради компиляции d8
-    - name: Installing the Android SDK
-      uses: android-actions/setup-android@v2
-      with:
-        api-level: 33
-        build-tools: 34.0.0
+    - name: Setup Android SDK
+      uses: android-actions/setup-android@v3
 
     # 4️⃣ Добавляем Build Tools в PATH как переменную среду
     - name: Configuring android
