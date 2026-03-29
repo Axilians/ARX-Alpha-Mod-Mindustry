@@ -119,6 +119,7 @@ object ArxUtilities {
         }
 
         Core.app.addListener(object : ApplicationListener {
+            override fun resize(width: Int, height: Int) {}
             override fun resume() {
                 apply(Core.settings.getBool("arx-khimeris-translate-database", true))
             }
