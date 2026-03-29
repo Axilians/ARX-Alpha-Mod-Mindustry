@@ -29,42 +29,40 @@ object ArxUtilities {
 
     fun registerIcons() {
         Events.on(ClientLoadEvent::class.java) {
-            Fonts.registerIcon("icon-e800", "arx-khimeris-f800", 0xE800, Core.atlas.find("arx-khimeris-f800"))
-            Fonts.registerIcon("icon-e801", "arx-khimeris-f801", 0xE801, Core.atlas.find("arx-khimeris-f801"))
-            Fonts.registerIcon("icon-e802", "arx-khimeris-f802", 0xE802, Core.atlas.find("arx-khimeris-f802"))
-            Fonts.registerIcon("icon-e803", "arx-khimeris-f803", 0xE803, Core.atlas.find("arx-khimeris-f803"))
-            Fonts.registerIcon("icon-e804", "arx-khimeris-f804", 0xE804, Core.atlas.find("arx-khimeris-f804"))
-            Fonts.registerIcon("icon-e805", "arx-khimeris-f805", 0xE805, Core.atlas.find("arx-khimeris-f805"))
-            Fonts.registerIcon("icon-e806", "arx-khimeris-f806", 0xE806, Core.atlas.find("arx-khimeris-f806"))
-            Fonts.registerIcon("icon-e807", "arx-khimeris-f807", 0xE807, Core.atlas.find("arx-khimeris-f807"))
-            Fonts.registerIcon("icon-e808", "arx-khimeris-f808", 0xE808, Core.atlas.find("arx-khimeris-f808"))
-            Fonts.registerIcon("icon-e809", "arx-khimeris-f809", 0xE809, Core.atlas.find("arx-khimeris-f809"))
-            Fonts.registerIcon("icon-e80a", "arx-khimeris-f80a", 0xE80A, Core.atlas.find("arx-khimeris-f80a"))
-            Fonts.registerIcon("icon-e80b", "arx-khimeris-f80b", 0xE80B, Core.atlas.find("arx-khimeris-f80b"))
-            Fonts.registerIcon("icon-e80c", "arx-khimeris-f80c", 0xE80C, Core.atlas.find("arx-khimeris-f80c"))
-            Fonts.registerIcon("icon-e80d", "arx-khimeris-f80d", 0xE80D, Core.atlas.find("arx-khimeris-f80d"))
-            Fonts.registerIcon("icon-e80e", "arx-khimeris-f80e", 0xE80E, Core.atlas.find("arx-khimeris-f80e"))
-            Fonts.registerIcon("icon-e80f", "arx-khimeris-f80f", 0xE80F, Core.atlas.find("arx-khimeris-f80f"))
-
-            Fonts.registerIcon("icon-e810", "arx-khimeris-f810", 0xE810, Core.atlas.find("arx-khimeris-axilians"))
-            Fonts.registerIcon("icon-e811", "arx-khimeris-f811", 0xE811, Core.atlas.find("arx-khimeris-f811"))
-            Fonts.registerIcon("icon-e812", "arx-khimeris-f812", 0xE812, Core.atlas.find("arx-khimeris-f812"))
-            Fonts.registerIcon("icon-e813", "arx-khimeris-f813", 0xE813, Core.atlas.find("arx-khimeris-f813"))
-            Fonts.registerIcon("icon-e814", "arx-khimeris-f814", 0xE814, Core.atlas.find("arx-khimeris-f814"))
-            Fonts.registerIcon("icon-e815", "arx-khimeris-f815", 0xE815, Core.atlas.find("arx-khimeris-f815"))
-            Fonts.registerIcon("icon-e816", "arx-khimeris-f816", 0xE816, Core.atlas.find("arx-khimeris-f816"))
-            Fonts.registerIcon("icon-e817", "arx-khimeris-f817", 0xE817, Core.atlas.find("arx-khimeris-f817"))
-            Fonts.registerIcon("icon-e818", "arx-khimeris-f818", 0xE818, Core.atlas.find("arx-khimeris-f818"))
-            Fonts.registerIcon("icon-e819", "arx-khimeris-f819", 0xE819, Core.atlas.find("arx-khimeris-f819"))
-            Fonts.registerIcon("icon-e81a", "arx-khimeris-f81a", 0xE81A, Core.atlas.find("arx-khimeris-f81a"))
-            Fonts.registerIcon("icon-e81b", "arx-khimeris-f81b", 0xE81B, Core.atlas.find("arx-khimeris-f81b"))
-            Fonts.registerIcon("icon-e81c", "arx-khimeris-f81c", 0xE81C, Core.atlas.find("arx-khimeris-f81c"))
-            Fonts.registerIcon("icon-e81d", "arx-khimeris-f81d", 0xE81D, Core.atlas.find("arx-khimeris-f81d"))
-            Fonts.registerIcon("icon-e81e", "team-green", 0xE81E, Core.atlas.find("arx-khimeris-team-green"))
-            Fonts.registerIcon("icon-e81f", "team-blue", 0xE81F, Core.atlas.find("arx-khimeris-team-blue"))
-            Fonts.registerIcon("icon-e820", "team-anker", 0xE820, Core.atlas.find("arx-khimeris-team-anker"))
-            //Fonts.registerIcon("arx-ignition",   "arx-khimeris-ignition",   0xC810, Core.atlas.find("arx-khimeris-ignition"))
-
+        // Заготовки
+            Fonts.registerIcon("arx-ignition", "arx-khimeris-ignition", 0xDD80, Core.atlas.find("arx-khimeris-ignition"))
+            Fonts.registerIcon("icon-dd81", "arx-khimeris-dd81", 0xDD81, Core.atlas.find("arx-khimeris-dd81"))
+            Fonts.registerIcon("icon-dd82", "arx-khimeris-dd82", 0xDD82, Core.atlas.find("arx-khimeris-dd82"))
+            Fonts.registerIcon("icon-dd83", "arx-khimeris-dd83", 0xDD83, Core.atlas.find("arx-khimeris-dd83"))
+            Fonts.registerIcon("icon-dd84", "arx-khimeris-dd84", 0xDD84, Core.atlas.find("arx-khimeris-dd84"))
+            Fonts.registerIcon("icon-dd85", "arx-khimeris-dd85", 0xDD85, Core.atlas.find("arx-khimeris-dd85"))
+            Fonts.registerIcon("icon-dd86", "arx-khimeris-dd86", 0xDD86, Core.atlas.find("arx-khimeris-dd86"))
+            Fonts.registerIcon("icon-dd87", "arx-khimeris-dd87", 0xDD87, Core.atlas.find("arx-khimeris-dd87"))
+            Fonts.registerIcon("icon-dd88", "arx-khimeris-dd88", 0xDD88, Core.atlas.find("arx-khimeris-dd88"))
+            Fonts.registerIcon("icon-dd89", "arx-khimeris-dd89", 0xDD89, Core.atlas.find("arx-khimeris-dd89"))
+            Fonts.registerIcon("icon-dd8a", "arx-khimeris-dd8a", 0xDD8A, Core.atlas.find("arx-khimeris-dd8a"))
+            Fonts.registerIcon("icon-dd8b", "arx-khimeris-dd8b", 0xDD8B, Core.atlas.find("arx-khimeris-dd8b"))
+            Fonts.registerIcon("icon-dd8c", "arx-khimeris-dd8c", 0xDD8C, Core.atlas.find("arx-khimeris-dd8c"))
+            Fonts.registerIcon("icon-dd8d", "arx-khimeris-dd8d", 0xDD8D, Core.atlas.find("arx-khimeris-dd8d"))
+            Fonts.registerIcon("icon-dd8e", "arx-khimeris-dd8e", 0xDD8E, Core.atlas.find("arx-khimeris-dd8e"))
+            Fonts.registerIcon("icon-dd8f", "arx-khimeris-dd8f", 0xDD8F, Core.atlas.find("arx-khimeris-dd8f"))
+            Fonts.registerIcon("arx-axilians", "arx-khimeris-axilians", 0xDD90, Core.atlas.find("arx-khimeris-axilians"))
+            Fonts.registerIcon("icon-dd91", "arx-khimeris-dd91", 0xDD91, Core.atlas.find("arx-khimeris-dd91"))
+            Fonts.registerIcon("icon-dd92", "arx-khimeris-dd92", 0xDD92, Core.atlas.find("arx-khimeris-dd92"))
+            Fonts.registerIcon("icon-dd93", "arx-khimeris-dd93", 0xDD93, Core.atlas.find("arx-khimeris-dd93"))
+            Fonts.registerIcon("icon-dd94", "arx-khimeris-dd94", 0xDD94, Core.atlas.find("arx-khimeris-dd94"))
+            Fonts.registerIcon("icon-dd95", "arx-khimeris-dd95", 0xDD95, Core.atlas.find("arx-khimeris-dd95"))
+            Fonts.registerIcon("icon-dd96", "arx-khimeris-dd96", 0xDD96, Core.atlas.find("arx-khimeris-dd96"))
+            Fonts.registerIcon("icon-dd97", "arx-khimeris-dd97", 0xDD97, Core.atlas.find("arx-khimeris-dd97"))
+            Fonts.registerIcon("icon-dd98", "arx-khimeris-dd98", 0xDD98, Core.atlas.find("arx-khimeris-dd98"))
+            Fonts.registerIcon("icon-dd99", "arx-khimeris-dd99", 0xDD99, Core.atlas.find("arx-khimeris-dd99"))
+            Fonts.registerIcon("icon-dd9a", "arx-khimeris-dd9a", 0xDD9A, Core.atlas.find("arx-khimeris-dd9a"))
+            Fonts.registerIcon("icon-dd9b", "arx-khimeris-dd9b", 0xDD9B, Core.atlas.find("arx-khimeris-dd9b"))
+            Fonts.registerIcon("icon-dd9c", "arx-khimeris-dd9c", 0xDD9C, Core.atlas.find("arx-khimeris-dd9c"))
+            // Команды
+            Fonts.registerIcon("team-anker", "arx-khimeris-team-anker", 0xDD9D, Core.atlas.find("arx-khimeris-team-anker"))
+            Fonts.registerIcon("team-green", "arx-khimeris-team-green", 0xDD9E, Core.atlas.find("arx-khimeris-team-green"))
+            Fonts.registerIcon("team-blue",  "arx-khimeris-team-blue",  0xDD9F, Core.atlas.find("arx-khimeris-team-blue"))
         }
     }
 
@@ -158,9 +156,9 @@ object ArxUtilities {
 
     fun teamIcons() {
         Events.on(ClientLoadEvent::class.java) {
-            Team.green.emoji            = "${0xE81E.toChar()}"
-            Team.blue.emoji             = "${0xE81F.toChar()}"
-            AnkerTeam.emoji   = "${0xE820.toChar()}"
+            AnkerTeam.emoji  = "${0xDD9D.toChar()}"
+            Team.green.emoji = "${0xDD9E.toChar()}"
+            Team.blue.emoji  = "${0xDD9F.toChar()}"
         }
     }
 }
